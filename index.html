@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Link do google fontes, icone e fontes-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Link do Swiper JS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Padaria CristoRei</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <img src="Imagens/logo.png" alt="PadariaCristo" class="logo" />
+        <div class="menu">
+          <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#cardapio">Cardapio</a>
+            <a href="#contato">Contato</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="inicio">
+        <div class="banner">
+          <div class="textobanner">
+            <h2>Feito com Amor,<br />Profissionalismo<br />e dedicação!</h2>
+            <h3>Aqui, na melhor padaria de União</h3>
+          </div>
+        </div>
+      </section>
+      <section id="cardapio">
+        <div class="containercarossel swiper">
+          <div class="carrossel-wrapper">
+            <h1 class="titulocarrossel">
+              Uma amostra do nosso incrivel cardapio!
+            </h1>
+            <ul class="lista swiper-wrapper">
+              <li class="itemlista swiper-slide">
+                <a href="#cardapio" class="cardlink">
+                  <img src="Imagens/padaria.jpg" alt="Bolo" class="cardimage" />
+                  <p class="badge padaria">Bolos de diversos sabores!</p>
+                  <h2 class="titulocard">
+                    Variados temas à sua escolha!<br />Com a garantia que você
+                    vai amar cada um de nossos sabores!
+                  </h2>
+                  <button class="cardbutton material-symbols-outlined">
+                    arrow_forward
+                  </button>
+                </a>
+              </li>
+              <li class="itemlista swiper-slide">
+                <a href="#cardapio" class="cardlink">
+                  <img src="Imagens/pao.jpg" alt="Bolo" class="cardimage" />
+                  <p class="badge pao">Pãos quentinhos!</p>
+                  <h2 class="titulocard">
+                    O melhor da região!<br />Não há nada como nossos pães,
+                    macios e fascinantes!
+                  </h2>
+                  <button class="cardbutton material-symbols-outlined">
+                    arrow_forward
+                  </button>
+                </a>
+              </li>
+              <li class="itemlista swiper-slide">
+                <a href="#cardapio" class="cardlink">
+                  <img
+                    src="Imagens/salgados.jpg"
+                    alt="Bolo"
+                    class="cardimage"
+                  />
+                  <p class="badge salgados">Uma diversidade de salgados!</p>
+                  <h2 class="titulocard">
+                    Venha ou fique sem!<br />Frescos e totalmente recheados,
+                    conosco não há erro!
+                  </h2>
+                  <button class="cardbutton material-symbols-outlined">
+                    arrow_forward
+                  </button>
+                </a>
+              </li>
+              <li class="itemlista swiper-slide">
+                <a href="#cardapio" class="cardlink">
+                  <img src="Imagens/folhado.jpg" alt="Bolo" class="cardimage" />
+                  <p class="badge folhado">Folhados como da Italia!</p>
+                  <h2 class="titulocard">
+                    Não passe vontade!<br />Venha e se sinta na Italia sem sair
+                    do Brasil, não acredita? Só vindo para crer!
+                  </h2>
+                  <button class="cardbutton material-symbols-outlined">
+                    arrow_forward
+                  </button>
+                </a>
+              </li>
+              <li class="itemlista swiper-slide">
+                <a href="#cardapio" class="cardlink">
+                  <img src="Imagens/doces.jpg " alt="Bolo" class="cardimage" />
+                  <p class="badge doces">Sem exagero, com muito chocolate!</p>
+                  <h2 class="titulocard">
+                    Os melhores doces, aqui!<br />Uma variedade de dodces
+                    recheados com alegria e profissionalimo, cuidado para não
+                    viciar!
+                  </h2>
+                  <button class="cardbutton material-symbols-outlined">
+                    arrow_forward
+                  </button>
+                </a>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <section id="contato">
+        <footer>
+          <div id="footerconteudo">
+            <div id="Contatos">
+              <h1>Padaria Cristo Rei</h1>
+              <p>Entregando qualidade!</p>
+              <div id="redessociais">
+                <a
+                  href="https://www.instagram.com/padariacristoreioficial/?hl=am-et"
+                  class="footerlink"
+                  id="instagram"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/PaesPadaria/?locale=pt_BR"
+                  class="footerlink"
+                  id="facebook"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href="#https://api.whatsapp.com/send?phone=5542984326305"
+                  class="footerlink"
+                  id="whatsapp"
+                >
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+            <ul class="footerlista">
+              <li>
+                <h3>Localização</h3>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/place/padaria+cristo+rei+uniao+da+vitoria/data=!4m2!3m1!1s0x94e66146110a2c39:0x219c9c0b5d6276bf?sa=X&ved=1t:242&ictx=111"
+                  class="footerlink"
+                  >Maps</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://guiafacil.com/site/padaria-cristo-rei/uniao-da-vitoria/pr/4235237845"
+                  class="footerlink"
+                  >Guia Fácil</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footerlink">Seg-Dom 07:00 às 18:30</a>
+              </li>
+            </ul>
+            <ul class="footerlista">
+              <li>
+                <h3>Sobre</h3>
+              </li>
+              <li>
+                <a
+                  href="https://www.econodata.com.br/consulta-empresa/04973803000183-padaria-cristo-rei-ltda"
+                  class="footerlink"
+                  >Econodata</a
+                >
+              </li>
+              <li>
+                <a href="#cardapio" class="footerlink">Cardapio</a>
+              </li>
+              <li>
+                <a href="#" class="footerlink">Inicio</a>
+              </li>
+            </ul>
+            <div id="footerescreva">
+              <h3>Escreva sua sugestão por e-mail!</h3>
+              <p>Nos diga, em quê podemos melhorar?</p>
+              <div id="inputgroup">
+                <input type="email" id="email" />
+                <button>
+                  <i class="fa-solid fa-envelope"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="footercopyrigth">
+            &#169; 2025 todos os direitos reservados
+          </div>
+        </footer>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
