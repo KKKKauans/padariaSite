@@ -318,14 +318,14 @@ footer {
   font-weight: 100;
 }
 
-@media screen and (max-widht: 768px) {
+@media screen and (max-width: 768px) {
   #footerconteudo {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 }
 
-@media screen and (max-widht: 426px) {
+@media screen and (max-width: 426px) {
   #footerconteudo {
     grid-template-columns: repeat(1, 1fr);
     padding: 3rem 2rem;
